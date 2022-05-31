@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+overflow: hidden;
+position: relative;
+}
+/* 
+.cadre{
+    background: url('https://i.pinimg.com/originals/26/1d/fd/261dfdd64a7b8a3f7065b7b58dc37fa4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+/* text score */
+
+.score{
+    position:absolute;
+    top: 1em;
+    left: 1em;
+    width: 100%;
+
+}
+
+/* text life left */
+.life{
+    position:absolute;
+    top: 1em;
+    right: 1em; 
+
+}
+
+
+/* btn reset  */
+.reset{
+    padding: 1em 4em;
+    border: 1px solid transparent ;
+    background-color: green;
+    display: none;
+    border-radius: 10px;
+    background-color: green;
+    color : white
+    
+}
+
